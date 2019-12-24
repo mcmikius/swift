@@ -27,13 +27,19 @@ import UIKit
 class MyClass {
     var number = 10
     lazy var closure: (Int) -> Void = { [weak self] (number1) in
-        self?.number += number1
-//        if let mySelf = self {
-//            mySelf.number += number1
-//            print("number += number1")
-//        } else {
-//            print("object already free")
-//        }
+        
+        guard let strongSelf = self else { return }
+        
+       strongSelf.number += 10
+        
+        if let mySelf = self {
+            mySelf.number += number1
+            print("number += number1")
+        } else {
+            print("object already free")
+        }
+        
+        self?.number += 10
         
     }
     deinit {
