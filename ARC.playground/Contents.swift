@@ -30,7 +30,7 @@ class MyClass {
         
         guard let strongSelf = self else { return }
         
-       strongSelf.number += 10
+        strongSelf.number += 10
         
         if let mySelf = self {
             mySelf.number += number1
@@ -40,6 +40,7 @@ class MyClass {
         }
         
         self?.number += 10
+        print("object already free")
         
     }
     deinit {
@@ -47,8 +48,10 @@ class MyClass {
     }
 }
 
+var ssss = 4
+
 var closure: (Int) -> Void = {
-    $0
+    print($0 + ssss)
 }
 
 if true {
