@@ -19,7 +19,7 @@ let myQueue = DispatchQueue(label: "mySerialQueue")
 
 myQueue.async {
     print("AAAAA")
-    myQueue.sync {
+    myQueue.async {
         print("CCCCC")
     }
     print("BBBB")
