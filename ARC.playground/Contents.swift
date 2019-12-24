@@ -11,7 +11,7 @@ class Human {
 
 class Animal {
     
-    var owner: Human?
+    weak var owner: Human?
     deinit {
         print("Animal deinit")
     }
