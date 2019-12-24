@@ -26,8 +26,8 @@ import UIKit
 
 class MyClass {
     var number = 10
-    lazy var closure: (Int) -> Void = { [unowned self] (number1) in
-        self.number += number1
+    lazy var closure: (Int) -> Void = { [weak self] (number1) in
+        self?.number += number1
 //        if let mySelf = self {
 //            mySelf.number += number1
 //            print("number += number1")
