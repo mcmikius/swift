@@ -2,6 +2,8 @@ import UIKit
 
 class Human {
     
+    var pet: Animal?
+    
     deinit {
         print("Human deinit")
     }
@@ -17,4 +19,5 @@ class Animal {
 if true {
     var human = Human()
     var animal = Animal()
+    human.pet = animal
 }
