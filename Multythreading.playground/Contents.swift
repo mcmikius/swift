@@ -17,7 +17,7 @@ print("\(str)")
 
 let myQueue = DispatchQueue(label: "mySerialQueue", attributes: .concurrent)
 for i in 0...1000 {
-    myQueue.async {
+    myQueue.sync {
         print("A-\(i)")
     }
 //    myQueue.async {
