@@ -15,14 +15,14 @@ print("\(str)")
 //    }
 //}
 
-let myQueue = DispatchQueue(label: "mySerialQueue", attributes: .concurrent)
-for i in 0...1000 {
+let myQueue = DispatchQueue(label: "mySerialQueue")
+
+myQueue.async {
+    print("AAAAA")
     myQueue.sync {
-        print("A-\(i)")
+        print("CCCCC")
     }
-//    myQueue.async {
-//        print("B-\(i)")
-//    }
+    print("BBBB")
 }
 
 print("end of file")
