@@ -1,3 +1,11 @@
 import UIKit
 
-var str = "Hello, playground"
+class Human {
+    deinit {
+        print("Human deinit")
+    }
+}
+
+if true {
+    var x = Human()
+}
