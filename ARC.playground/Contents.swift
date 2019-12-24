@@ -26,8 +26,8 @@ import UIKit
 
 class MyClass {
     var number = 10
-    lazy var closure: (Int) -> Void = { (number) in
-        self.number += number
+    lazy var closure: (Int) -> Void = { [weak self] (number1) in
+        self?.number += number1
     }
     deinit {
         print("MyClass deinit")
