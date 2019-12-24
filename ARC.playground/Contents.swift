@@ -26,15 +26,28 @@ import UIKit
 
 class MyClass {
     var number = 10
-    lazy var closure: (Int) -> Void = { [unowned self] (number1) in
-        self.number += number1
+    lazy var closure: (Int) -> Void = { [weak self] (number1) in
+        if let mySelf = self {
+            mySelf.number += number1
+            print("number += number1")
+        } else {
+            print("object already free")
+        }
+        
     }
     deinit {
         print("MyClass deinit")
     }
 }
 
+var closure: (Int) -> Void = {
+    $0
+}
+
 if true {
     var x = MyClass()
+    closure = x.closure
     x.closure(5)
 }
+
+closure(5)
