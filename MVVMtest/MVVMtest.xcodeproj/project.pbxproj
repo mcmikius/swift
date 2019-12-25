@@ -13,6 +13,11 @@
 		F315205423B3DAAC00C242AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F315205223B3DAAC00C242AA /* Main.storyboard */; };
 		F315205623B3DAAD00C242AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F315205523B3DAAD00C242AA /* Assets.xcassets */; };
 		F315205923B3DAAD00C242AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F315205723B3DAAD00C242AA /* LaunchScreen.storyboard */; };
+		F315206123B3DBDE00C242AA /* AppearenceModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315206023B3DBDE00C242AA /* AppearenceModelType.swift */; };
+		F315206323B3DC4100C242AA /* AppearenceModelType+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315206223B3DC4100C242AA /* AppearenceModelType+extension.swift */; };
+		F315206523B3DCB400C242AA /* NightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315206423B3DCB400C242AA /* NightModel.swift */; };
+		F315206723B3DD1E00C242AA /* GreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315206623B3DD1E00C242AA /* GreenModel.swift */; };
+		F315206923B3DD7A00C242AA /* ViewControllerCoordinatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315206823B3DD7A00C242AA /* ViewControllerCoordinatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F315205523B3DAAD00C242AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F315205823B3DAAD00C242AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F315205A23B3DAAD00C242AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F315206023B3DBDE00C242AA /* AppearenceModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearenceModelType.swift; sourceTree = "<group>"; };
+		F315206223B3DC4100C242AA /* AppearenceModelType+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppearenceModelType+extension.swift"; sourceTree = "<group>"; };
+		F315206423B3DCB400C242AA /* NightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightModel.swift; sourceTree = "<group>"; };
+		F315206623B3DD1E00C242AA /* GreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenModel.swift; sourceTree = "<group>"; };
+		F315206823B3DD7A00C242AA /* ViewControllerCoordinatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCoordinatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				F315204C23B3DAAC00C242AA /* AppDelegate.swift */,
 				F315204E23B3DAAC00C242AA /* SceneDelegate.swift */,
 				F315205023B3DAAC00C242AA /* ViewController.swift */,
+				F315206023B3DBDE00C242AA /* AppearenceModelType.swift */,
+				F315206223B3DC4100C242AA /* AppearenceModelType+extension.swift */,
+				F315206423B3DCB400C242AA /* NightModel.swift */,
+				F315206623B3DD1E00C242AA /* GreenModel.swift */,
+				F315206823B3DD7A00C242AA /* ViewControllerCoordinatorModel.swift */,
 				F315205223B3DAAC00C242AA /* Main.storyboard */,
 				F315205523B3DAAD00C242AA /* Assets.xcassets */,
 				F315205723B3DAAD00C242AA /* LaunchScreen.storyboard */,
@@ -140,7 +155,12 @@
 			files = (
 				F315205123B3DAAC00C242AA /* ViewController.swift in Sources */,
 				F315204D23B3DAAC00C242AA /* AppDelegate.swift in Sources */,
+				F315206123B3DBDE00C242AA /* AppearenceModelType.swift in Sources */,
+				F315206923B3DD7A00C242AA /* ViewControllerCoordinatorModel.swift in Sources */,
 				F315204F23B3DAAC00C242AA /* SceneDelegate.swift in Sources */,
+				F315206523B3DCB400C242AA /* NightModel.swift in Sources */,
+				F315206723B3DD1E00C242AA /* GreenModel.swift in Sources */,
+				F315206323B3DC4100C242AA /* AppearenceModelType+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
