@@ -9,7 +9,11 @@
 import UIKit
 
 class ListNotesTableViewController: UITableViewController {
+    
+    // MARK: - Properties
 
+    var notes = [Note]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

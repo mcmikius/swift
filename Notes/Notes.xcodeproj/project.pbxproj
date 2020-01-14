@@ -17,6 +17,7 @@
 		F34F949F23CDEACF004038D4 /* DisplayNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F949E23CDEACF004038D4 /* DisplayNoteViewController.swift */; };
 		F34F94A123CDEB0E004038D4 /* Date+convertToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F94A023CDEB0E004038D4 /* Date+convertToString.swift */; };
 		F34F94A323CDEB35004038D4 /* ListNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F94A223CDEB35004038D4 /* ListNotesTableViewCell.swift */; };
+		F34F94A523CDF34A004038D4 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34F94A423CDF34A004038D4 /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F34F949E23CDEACF004038D4 /* DisplayNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayNoteViewController.swift; sourceTree = "<group>"; };
 		F34F94A023CDEB0E004038D4 /* Date+convertToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+convertToString.swift"; sourceTree = "<group>"; };
 		F34F94A223CDEB35004038D4 /* ListNotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNotesTableViewCell.swift; sourceTree = "<group>"; };
+		F34F94A423CDF34A004038D4 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				F34F949C23CDEA99004038D4 /* ListNotesTableViewController.swift */,
 				F34F94A223CDEB35004038D4 /* ListNotesTableViewCell.swift */,
 				F34F949E23CDEACF004038D4 /* DisplayNoteViewController.swift */,
+				F34F94A423CDF34A004038D4 /* Notes.swift */,
 				F34F948B23CDEA0A004038D4 /* Main.storyboard */,
 				F34F949123CDEA0B004038D4 /* Assets.xcassets */,
 				F34F949323CDEA0B004038D4 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 				F34F94A123CDEB0E004038D4 /* Date+convertToString.swift in Sources */,
 				F34F949F23CDEACF004038D4 /* DisplayNoteViewController.swift in Sources */,
 				F34F949023CDEA0A004038D4 /* Notes.xcdatamodeld in Sources */,
+				F34F94A523CDF34A004038D4 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
