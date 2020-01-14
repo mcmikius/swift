@@ -3,10 +3,11 @@
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--List Notes Table View Controller-->
+        <!--Notes-->
         <scene sceneID="bJf-Kr-VQ6">
             <objects>
                 <tableViewController storyboardIdentifier="ListNotesTableViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xyp-z4-wAJ" customClass="ListNotesTableViewController" customModule="Notes" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,6 +54,7 @@
                                 <connections>
                                     <outlet property="noteModificationTimeLabel" destination="hoy-kU-8Ed" id="ZOd-IU-Xef"/>
                                     <outlet property="noteTitleLabel" destination="DEj-6F-gFl" id="bKI-ER-3vu"/>
+                                    <segue destination="Een-RG-ngP" kind="show" identifier="displayNote" id="vSI-Yb-npM"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -61,11 +63,51 @@
                             <outlet property="delegate" destination="xyp-z4-wAJ" id="NzP-nE-VCb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="ckw-KR-2Sd"/>
+                    <navigationItem key="navigationItem" title="Notes" id="ckw-KR-2Sd"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qq7-bq-ygI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1148" y="80.50974512743629"/>
+        </scene>
+        <!--Display Note View Controller-->
+        <scene sceneID="yiy-Sf-gCQ">
+            <objects>
+                <viewController storyboardIdentifier="DisplayNoteViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Een-RG-ngP" customClass="DisplayNoteViewController" customModule="Notes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dJP-b8-SBd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UAX-xD-e9M">
+                                <rect key="frame" x="15" y="54" width="345" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fAj-cA-DaO">
+                                <rect key="frame" x="15" y="98" width="345" height="554"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8NX-pu-S90" firstAttribute="trailing" secondItem="fAj-cA-DaO" secondAttribute="trailing" constant="15" id="6p8-uq-Ohm"/>
+                            <constraint firstItem="8NX-pu-S90" firstAttribute="bottom" secondItem="fAj-cA-DaO" secondAttribute="bottom" constant="15" id="IIN-TW-1Bt"/>
+                            <constraint firstItem="8NX-pu-S90" firstAttribute="trailing" secondItem="UAX-xD-e9M" secondAttribute="trailing" constant="15" id="OBj-pm-kfG"/>
+                            <constraint firstItem="fAj-cA-DaO" firstAttribute="top" secondItem="UAX-xD-e9M" secondAttribute="bottom" constant="10" id="Sek-KB-wGR"/>
+                            <constraint firstItem="UAX-xD-e9M" firstAttribute="top" secondItem="8NX-pu-S90" secondAttribute="top" constant="10" id="bi8-NI-bXo"/>
+                            <constraint firstItem="fAj-cA-DaO" firstAttribute="leading" secondItem="8NX-pu-S90" secondAttribute="leading" constant="15" id="l18-Dn-cVT"/>
+                            <constraint firstItem="UAX-xD-e9M" firstAttribute="leading" secondItem="8NX-pu-S90" secondAttribute="leading" constant="15" id="peN-bo-rQy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8NX-pu-S90"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="C8C-7e-2Bw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lNv-mS-BeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2017" y="77"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hVs-cV-MV7">
