@@ -63,13 +63,19 @@
                             <outlet property="delegate" destination="xyp-z4-wAJ" id="NzP-nE-VCb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Notes" id="ckw-KR-2Sd"/>
+                    <navigationItem key="navigationItem" title="Notes" id="ckw-KR-2Sd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="LNc-CG-1h4">
+                            <connections>
+                                <segue destination="Een-RG-ngP" kind="show" identifier="addNote" id="OEK-4O-ffs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qq7-bq-ygI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1148" y="80.50974512743629"/>
         </scene>
-        <!--Display Note View Controller-->
+        <!--Title-->
         <scene sceneID="yiy-Sf-gCQ">
             <objects>
                 <viewController storyboardIdentifier="DisplayNoteViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Een-RG-ngP" customClass="DisplayNoteViewController" customModule="Notes" customModuleProvider="target" sceneMemberID="viewController">
@@ -103,7 +109,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8NX-pu-S90"/>
                     </view>
-                    <navigationItem key="navigationItem" id="C8C-7e-2Bw"/>
+                    <navigationItem key="navigationItem" title="Title" id="C8C-7e-2Bw">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="4lS-bR-TYH"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="EIU-gj-8xd"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lNv-mS-BeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -128,4 +137,7 @@
             <point key="canvasLocation" x="208.80000000000001" y="80.50974512743629"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="vSI-Yb-npM"/>
+    </inferredMetricsTieBreakers>
 </document>
