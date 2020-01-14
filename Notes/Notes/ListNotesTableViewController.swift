@@ -28,14 +28,16 @@ class ListNotesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 10
+        return notes.count
     }
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "listNotesTableViewCell", for: indexPath) as! ListNotesTableViewCell
-        cell.noteTitleLabel.text = "note's title"
-        cell.noteModificationTimeLabel.text = "note's modification time"
+
+        let note = notes[indexPath.row]
+        cell.noteTitleLabel.text = note.title
+        cell.noteModificationTimeLabel.text = note.modificationTime.convertToString()
 
         return cell
     }
