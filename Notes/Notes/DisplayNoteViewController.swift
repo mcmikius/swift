@@ -48,7 +48,6 @@ class DisplayNoteViewController: UIViewController {
             note?.title = titleTextField.text ?? ""
             note?.content = contentTextView.text ?? ""
             note?.modificationTime = Date()
-
             CoreDataHelper.saveNote()
         case "save" where note == nil:
             let note = CoreDataHelper.newNote()
