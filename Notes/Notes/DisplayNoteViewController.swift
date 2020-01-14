@@ -13,6 +13,10 @@ class DisplayNoteViewController: UIViewController {
     @IBOutlet weak var titleTextField: UITextField!
     @IBOutlet weak var contentTextView: UITextView!
     
+    // MARK: - Properties
+
+    var note: Note?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

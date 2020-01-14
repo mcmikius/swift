@@ -92,7 +92,10 @@ class ListNotesTableViewController: UITableViewController {
 
         switch identifier {
         case "displayNote":
-            print("note cell tapped")
+            guard let indexPath = tableView.indexPathForSelectedRow else { return }
+            let note = notes[indexPath.row]
+            let destination = segue.destination as! DisplayNoteViewController
+            destination.note = note
 
         case "addNote":
             print("create note bar button item tapped")
