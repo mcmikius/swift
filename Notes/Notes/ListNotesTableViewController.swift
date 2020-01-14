@@ -80,9 +80,15 @@ class ListNotesTableViewController: UITableViewController {
         // Check that the segue has a identifier.
         guard let identifier = segue.identifier else { return }
 
-        // If so, check if the identifier is equal to displayNote. If yes, add a print statement to our debug console.
-        if identifier == "displayNote" {
-            print("Transitioning to the Display Note View Controller")
+        switch identifier {
+        case "displayNote":
+            print("note cell tapped")
+
+        case "addNote":
+            print("create note bar button item tapped")
+
+        default:
+            print("unexpected segue identifier")
         }
     }
 
