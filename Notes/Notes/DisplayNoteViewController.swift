@@ -17,14 +17,24 @@ class DisplayNoteViewController: UIViewController {
     }
     
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard let identifier = segue.identifier else { return }
+
+        switch identifier {
+        case "save":
+            print("save bar button item tapped")
+
+        case "cancel":
+            print("cancel bar button item tapped")
+
+        default:
+            print("unexpected segue identifier")
+        }
     }
-    */
+
 
 }
