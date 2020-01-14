@@ -61,7 +61,10 @@ class ListNotesTableViewController: UITableViewController {
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            notes.remove(at: indexPath.row)
+            let noteToDelete = notes[indexPath.row]
+            CoreDataHelper.delete(note: noteToDelete)
+
+            notes = CoreDataHelper.retrieveNotes()
         }
     }
     
