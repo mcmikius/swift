@@ -51,11 +51,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func scheduleNotification(notificationType: String) {
         
         let content = UNMutableNotificationContent()
+        let userAction = "User Action"
         
         content.title = notificationType
         content.body = "This is example how to create " + notificationType
         content.sound = UNNotificationSound.default
         content.badge = 1
+        content.categoryIdentifier = userAction
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         
@@ -67,6 +69,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("Error \(error.localizedDescription)")
             }
         }
+        
+        let snoozeAction = UNNotificationAction(identifier: "Snooze", title: "Snooze", options: [])
+        let deleteAction = UNNotificationAction(identifier: "Delete", title: "Delete", options: [.destructive])
+        let category = UNNotificationCategory(identifier: userAction, actions: [snoozeAction, deleteAction], intentIdentifiers: [], options: [])
+        notificationCenter.setNotificationCategories([category])
+        
     }
 
 
@@ -80,6 +88,21 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         if response.notification.request.identifier == "Local Notification" {
             print("Handling notification with the local Notification Identifire")
         }
+        
+        switch response.actionIdentifier {
+        case UNNotificationDismissActionIdentifier:
+            print("Dismiss Action")
+        case UNNotificationDefaultActionIdentifier:
+            print("Default Action")
+        case "Snooze":
+            print("Snooze Action")
+            scheduleNotification(notificationType: "Reminder")
+        case "Delete":
+            print("Delete Action")
+        default:
+            print("Unknown Action")
+        }
+        
         completionHandler()
     }
 }
