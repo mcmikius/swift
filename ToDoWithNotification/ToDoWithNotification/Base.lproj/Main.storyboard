@@ -80,6 +80,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSY-pI-ORg">
                                 <rect key="frame" x="16" y="276" width="343" height="30"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="savePressed:" destination="lHn-f8-v7R" eventType="touchUpInside" id="pcx-v6-FOp"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
