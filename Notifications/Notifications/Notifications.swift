@@ -37,6 +37,15 @@ class Notifications: NSObject, UNUserNotificationCenterDelegate {
         content.badge = 1
         content.categoryIdentifier = userAction
         
+        guard let path = Bundle.main.path(forResource: "StarLord", ofType: "jpeg") else { return }
+        let url = URL(fileURLWithPath: path)
+        do {
+            let attachment = try UNNotificationAttachment(identifier: "StarLord", url: url, options: nil)
+            content.attachments = [attachment]
+        } catch {
+            print("The attachment cold not be loaded")
+        }
+        
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         
         let identifire = "Local Notification"
@@ -68,6 +77,7 @@ class Notifications: NSObject, UNUserNotificationCenterDelegate {
             print("Dismiss Action")
         case UNNotificationDefaultActionIdentifier:
             print("Default Action")
+            
         case "Snooze":
             print("Snooze Action")
             scheduleNotification(notificationType: "Reminder")
