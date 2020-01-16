@@ -13,6 +13,7 @@
 		A8217DEA20DBD56400895832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8217DE820DBD56400895832 /* LaunchScreen.storyboard */; };
 		A8217DF420DCAF4E00895832 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8217DF320DCAF4E00895832 /* TableViewController.swift */; };
 		F307518923CF6C1E00BD97E9 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307518823CF6C1E00BD97E9 /* Notifications.swift */; };
+		F3EF7D4523D0483600E4DCBE /* StarLord.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3EF7D4423D0483600E4DCBE /* StarLord.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A8217DEB20DBD56400895832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8217DF320DCAF4E00895832 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F307518823CF6C1E00BD97E9 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		F3EF7D4423D0483600E4DCBE /* StarLord.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StarLord.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A8217DDF20DBD56300895832 /* AppDelegate.swift */,
 				F307518823CF6C1E00BD97E9 /* Notifications.swift */,
 				A8217DF320DCAF4E00895832 /* TableViewController.swift */,
+				F3EF7D4423D0483600E4DCBE /* StarLord.jpeg */,
 				A8217DE320DBD56300895832 /* Main.storyboard */,
 				A8217DE620DBD56400895832 /* Assets.xcassets */,
 				A8217DE820DBD56400895832 /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 			files = (
 				A8217DEA20DBD56400895832 /* LaunchScreen.storyboard in Resources */,
 				A8217DE720DBD56400895832 /* Assets.xcassets in Resources */,
+				F3EF7D4523D0483600E4DCBE /* StarLord.jpeg in Resources */,
 				A8217DE520DBD56300895832 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
