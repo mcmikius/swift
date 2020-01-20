@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F32BD28B23D068E700F4E9E7 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32BD28A23D068E700F4E9E7 /* Date+Extensions.swift */; };
-		F3EF7D5323D05DDD00E4DCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF7D5223D05DDD00E4DCBE /* AppDelegate.swift */; };
-		F3EF7D5523D05DDD00E4DCBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF7D5423D05DDD00E4DCBE /* SceneDelegate.swift */; };
-		F3EF7D5A23D05DDD00E4DCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EF7D5823D05DDD00E4DCBE /* Main.storyboard */; };
-		F3EF7D5C23D05DE000E4DCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EF7D5B23D05DE000E4DCBE /* Assets.xcassets */; };
-		F3EF7D5F23D05DE000E4DCBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EF7D5D23D05DE000E4DCBE /* LaunchScreen.storyboard */; };
-		F3EF7D6723D05F0000E4DCBE /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF7D6623D05F0000E4DCBE /* TodoTableViewController.swift */; };
-		F3EF7D6923D05F3E00E4DCBE /* TodoSchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF7D6823D05F3E00E4DCBE /* TodoSchedulingViewController.swift */; };
-		F3EF7D6B23D05F9900E4DCBE /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF7D6A23D05F9900E4DCBE /* TodoItem.swift */; };
-		F3EF7D6D23D05FC000E4DCBE /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EF7D6C23D05FC000E4DCBE /* TodoList.swift */; };
+		F3EC34A823D5CA8700F27FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC34A723D5CA8700F27FA2 /* AppDelegate.swift */; };
+		F3EC34AA23D5CA8700F27FA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC34A923D5CA8700F27FA2 /* SceneDelegate.swift */; };
+		F3EC34AC23D5CA8700F27FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC34AB23D5CA8700F27FA2 /* ContentView.swift */; };
+		F3EC34AE23D5CA8A00F27FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EC34AD23D5CA8A00F27FA2 /* Assets.xcassets */; };
+		F3EC34B123D5CA8A00F27FA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EC34B023D5CA8A00F27FA2 /* Preview Assets.xcassets */; };
+		F3EC34B423D5CA8A00F27FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EC34B223D5CA8A00F27FA2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F32BD28A23D068E700F4E9E7 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
-		F3EF7D4F23D05DDD00E4DCBE /* ToDoWithNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoWithNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3EF7D5223D05DDD00E4DCBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3EF7D5423D05DDD00E4DCBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3EF7D5923D05DDD00E4DCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3EF7D5B23D05DE000E4DCBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3EF7D5E23D05DE000E4DCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F3EF7D6023D05DE000E4DCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3EF7D6623D05F0000E4DCBE /* TodoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
-		F3EF7D6823D05F3E00E4DCBE /* TodoSchedulingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoSchedulingViewController.swift; sourceTree = "<group>"; };
-		F3EF7D6A23D05F9900E4DCBE /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
-		F3EF7D6C23D05FC000E4DCBE /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		F3EC34A423D5CA8700F27FA2 /* SwiftUILocalNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILocalNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EC34A723D5CA8700F27FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3EC34A923D5CA8700F27FA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3EC34AB23D5CA8700F27FA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3EC34AD23D5CA8A00F27FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3EC34B023D5CA8A00F27FA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3EC34B323D5CA8A00F27FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3EC34B523D5CA8A00F27FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3EF7D4C23D05DDD00E4DCBE /* Frameworks */ = {
+		F3EC34A123D5CA8700F27FA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +37,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3EF7D4623D05DDD00E4DCBE = {
+		F3EC349B23D5CA8700F27FA2 = {
 			isa = PBXGroup;
 			children = (
-				F3EF7D5123D05DDD00E4DCBE /* ToDoWithNotification */,
-				F3EF7D5023D05DDD00E4DCBE /* Products */,
+				F3EC34A623D5CA8700F27FA2 /* SwiftUILocalNotification */,
+				F3EC34A523D5CA8700F27FA2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3EF7D5023D05DDD00E4DCBE /* Products */ = {
+		F3EC34A523D5CA8700F27FA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3EF7D4F23D05DDD00E4DCBE /* ToDoWithNotification.app */,
+				F3EC34A423D5CA8700F27FA2 /* SwiftUILocalNotification.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3EF7D5123D05DDD00E4DCBE /* ToDoWithNotification */ = {
+		F3EC34A623D5CA8700F27FA2 /* SwiftUILocalNotification */ = {
 			isa = PBXGroup;
 			children = (
-				F3EF7D5223D05DDD00E4DCBE /* AppDelegate.swift */,
-				F3EF7D5423D05DDD00E4DCBE /* SceneDelegate.swift */,
-				F3EF7D6623D05F0000E4DCBE /* TodoTableViewController.swift */,
-				F3EF7D6823D05F3E00E4DCBE /* TodoSchedulingViewController.swift */,
-				F3EF7D6A23D05F9900E4DCBE /* TodoItem.swift */,
-				F3EF7D6C23D05FC000E4DCBE /* TodoList.swift */,
-				F32BD28A23D068E700F4E9E7 /* Date+Extensions.swift */,
-				F3EF7D5823D05DDD00E4DCBE /* Main.storyboard */,
-				F3EF7D5B23D05DE000E4DCBE /* Assets.xcassets */,
-				F3EF7D5D23D05DE000E4DCBE /* LaunchScreen.storyboard */,
-				F3EF7D6023D05DE000E4DCBE /* Info.plist */,
+				F3EC34A723D5CA8700F27FA2 /* AppDelegate.swift */,
+				F3EC34A923D5CA8700F27FA2 /* SceneDelegate.swift */,
+				F3EC34AB23D5CA8700F27FA2 /* ContentView.swift */,
+				F3EC34AD23D5CA8A00F27FA2 /* Assets.xcassets */,
+				F3EC34B223D5CA8A00F27FA2 /* LaunchScreen.storyboard */,
+				F3EC34B523D5CA8A00F27FA2 /* Info.plist */,
+				F3EC34AF23D5CA8A00F27FA2 /* Preview Content */,
 			);
-			path = ToDoWithNotification;
+			path = SwiftUILocalNotification;
+			sourceTree = "<group>";
+		};
+		F3EC34AF23D5CA8A00F27FA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3EC34B023D5CA8A00F27FA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3EF7D4E23D05DDD00E4DCBE /* ToDoWithNotification */ = {
+		F3EC34A323D5CA8700F27FA2 /* SwiftUILocalNotification */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3EF7D6323D05DE000E4DCBE /* Build configuration list for PBXNativeTarget "ToDoWithNotification" */;
+			buildConfigurationList = F3EC34B823D5CA8A00F27FA2 /* Build configuration list for PBXNativeTarget "SwiftUILocalNotification" */;
 			buildPhases = (
-				F3EF7D4B23D05DDD00E4DCBE /* Sources */,
-				F3EF7D4C23D05DDD00E4DCBE /* Frameworks */,
-				F3EF7D4D23D05DDD00E4DCBE /* Resources */,
+				F3EC34A023D5CA8700F27FA2 /* Sources */,
+				F3EC34A123D5CA8700F27FA2 /* Frameworks */,
+				F3EC34A223D5CA8700F27FA2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ToDoWithNotification;
-			productName = ToDoWithNotification;
-			productReference = F3EF7D4F23D05DDD00E4DCBE /* ToDoWithNotification.app */;
+			name = SwiftUILocalNotification;
+			productName = SwiftUILocalNotification;
+			productReference = F3EC34A423D5CA8700F27FA2 /* SwiftUILocalNotification.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3EF7D4723D05DDD00E4DCBE /* Project object */ = {
+		F3EC349C23D5CA8700F27FA2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Mykhailo Bondarenko";
 				TargetAttributes = {
-					F3EF7D4E23D05DDD00E4DCBE = {
+					F3EC34A323D5CA8700F27FA2 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = F3EF7D4A23D05DDD00E4DCBE /* Build configuration list for PBXProject "ToDoWithNotification" */;
+			buildConfigurationList = F3EC349F23D5CA8700F27FA2 /* Build configuration list for PBXProject "SwiftUILocalNotification" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +118,47 @@
 				en,
 				Base,
 			);
-			mainGroup = F3EF7D4623D05DDD00E4DCBE;
-			productRefGroup = F3EF7D5023D05DDD00E4DCBE /* Products */;
+			mainGroup = F3EC349B23D5CA8700F27FA2;
+			productRefGroup = F3EC34A523D5CA8700F27FA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3EF7D4E23D05DDD00E4DCBE /* ToDoWithNotification */,
+				F3EC34A323D5CA8700F27FA2 /* SwiftUILocalNotification */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3EF7D4D23D05DDD00E4DCBE /* Resources */ = {
+		F3EC34A223D5CA8700F27FA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3EF7D5F23D05DE000E4DCBE /* LaunchScreen.storyboard in Resources */,
-				F3EF7D5C23D05DE000E4DCBE /* Assets.xcassets in Resources */,
-				F3EF7D5A23D05DDD00E4DCBE /* Main.storyboard in Resources */,
+				F3EC34B423D5CA8A00F27FA2 /* LaunchScreen.storyboard in Resources */,
+				F3EC34B123D5CA8A00F27FA2 /* Preview Assets.xcassets in Resources */,
+				F3EC34AE23D5CA8A00F27FA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3EF7D4B23D05DDD00E4DCBE /* Sources */ = {
+		F3EC34A023D5CA8700F27FA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3EF7D6B23D05F9900E4DCBE /* TodoItem.swift in Sources */,
-				F3EF7D6923D05F3E00E4DCBE /* TodoSchedulingViewController.swift in Sources */,
-				F32BD28B23D068E700F4E9E7 /* Date+Extensions.swift in Sources */,
-				F3EF7D5323D05DDD00E4DCBE /* AppDelegate.swift in Sources */,
-				F3EF7D6D23D05FC000E4DCBE /* TodoList.swift in Sources */,
-				F3EF7D6723D05F0000E4DCBE /* TodoTableViewController.swift in Sources */,
-				F3EF7D5523D05DDD00E4DCBE /* SceneDelegate.swift in Sources */,
+				F3EC34A823D5CA8700F27FA2 /* AppDelegate.swift in Sources */,
+				F3EC34AA23D5CA8700F27FA2 /* SceneDelegate.swift in Sources */,
+				F3EC34AC23D5CA8700F27FA2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3EF7D5823D05DDD00E4DCBE /* Main.storyboard */ = {
+		F3EC34B223D5CA8A00F27FA2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F3EF7D5923D05DDD00E4DCBE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F3EF7D5D23D05DE000E4DCBE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3EF7D5E23D05DE000E4DCBE /* Base */,
+				F3EC34B323D5CA8A00F27FA2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F3EF7D6123D05DE000E4DCBE /* Debug */ = {
+		F3EC34B623D5CA8A00F27FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		F3EF7D6223D05DE000E4DCBE /* Release */ = {
+		F3EC34B723D5CA8A00F27FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,36 +280,40 @@
 			};
 			name = Release;
 		};
-		F3EF7D6423D05DE000E4DCBE /* Debug */ = {
+		F3EC34B923D5CA8A00F27FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILocalNotification/Preview Content\"";
 				DEVELOPMENT_TEAM = GYWWW55376;
-				INFOPLIST_FILE = ToDoWithNotification/Info.plist;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUILocalNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcmikius.ToDoWithNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcmikius.SwiftUILocalNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F3EF7D6523D05DE000E4DCBE /* Release */ = {
+		F3EC34BA23D5CA8A00F27FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILocalNotification/Preview Content\"";
 				DEVELOPMENT_TEAM = GYWWW55376;
-				INFOPLIST_FILE = ToDoWithNotification/Info.plist;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUILocalNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcmikius.ToDoWithNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcmikius.SwiftUILocalNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3EF7D4A23D05DDD00E4DCBE /* Build configuration list for PBXProject "ToDoWithNotification" */ = {
+		F3EC349F23D5CA8700F27FA2 /* Build configuration list for PBXProject "SwiftUILocalNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3EF7D6123D05DE000E4DCBE /* Debug */,
-				F3EF7D6223D05DE000E4DCBE /* Release */,
+				F3EC34B623D5CA8A00F27FA2 /* Debug */,
+				F3EC34B723D5CA8A00F27FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3EF7D6323D05DE000E4DCBE /* Build configuration list for PBXNativeTarget "ToDoWithNotification" */ = {
+		F3EC34B823D5CA8A00F27FA2 /* Build configuration list for PBXNativeTarget "SwiftUILocalNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3EF7D6423D05DE000E4DCBE /* Debug */,
-				F3EF7D6523D05DE000E4DCBE /* Release */,
+				F3EC34B923D5CA8A00F27FA2 /* Debug */,
+				F3EC34BA23D5CA8A00F27FA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3EF7D4723D05DDD00E4DCBE /* Project object */;
+	rootObject = F3EC349C23D5CA8700F27FA2 /* Project object */;
 }
