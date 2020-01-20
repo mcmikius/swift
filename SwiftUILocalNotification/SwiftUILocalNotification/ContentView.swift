@@ -11,7 +11,10 @@ import SwiftUI
 struct ContentView: View {
     
     func setNotification() -> Void {
-        
+        let manager = LocalNotificationManager()
+        manager.requestPermission()
+        manager.addNotification(title: "This is a test reminder")
+        manager.scheduleNotifications()
     }
     
     var body: some View {
