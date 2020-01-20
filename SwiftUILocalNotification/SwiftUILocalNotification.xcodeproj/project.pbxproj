@@ -13,6 +13,8 @@
 		F3EC34AE23D5CA8A00F27FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EC34AD23D5CA8A00F27FA2 /* Assets.xcassets */; };
 		F3EC34B123D5CA8A00F27FA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EC34B023D5CA8A00F27FA2 /* Preview Assets.xcassets */; };
 		F3EC34B423D5CA8A00F27FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EC34B223D5CA8A00F27FA2 /* LaunchScreen.storyboard */; };
+		F3EC34BC23D5CAD600F27FA2 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC34BB23D5CAD600F27FA2 /* LocalNotificationManager.swift */; };
+		F3EC34BE23D5CAF300F27FA2 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC34BD23D5CAF300F27FA2 /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F3EC34B023D5CA8A00F27FA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3EC34B323D5CA8A00F27FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3EC34B523D5CA8A00F27FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EC34BB23D5CAD600F27FA2 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		F3EC34BD23D5CAF300F27FA2 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				F3EC34A723D5CA8700F27FA2 /* AppDelegate.swift */,
 				F3EC34A923D5CA8700F27FA2 /* SceneDelegate.swift */,
+				F3EC34BD23D5CAF300F27FA2 /* Notification.swift */,
+				F3EC34BB23D5CAD600F27FA2 /* LocalNotificationManager.swift */,
 				F3EC34AB23D5CA8700F27FA2 /* ContentView.swift */,
 				F3EC34AD23D5CA8A00F27FA2 /* Assets.xcassets */,
 				F3EC34B223D5CA8A00F27FA2 /* LaunchScreen.storyboard */,
@@ -147,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3EC34A823D5CA8700F27FA2 /* AppDelegate.swift in Sources */,
+				F3EC34BE23D5CAF300F27FA2 /* Notification.swift in Sources */,
 				F3EC34AA23D5CA8700F27FA2 /* SceneDelegate.swift in Sources */,
+				F3EC34BC23D5CAD600F27FA2 /* LocalNotificationManager.swift in Sources */,
 				F3EC34AC23D5CA8700F27FA2 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
